@@ -85,7 +85,7 @@ public class RecordingService {
             if (allDirectories.hasKey(Recording.STATE_PUBLISHED))
                 recordIDs.addAll(getAllRecordingIds(allDirectories.get(Recording.STATE_PUBLISHED)));
 
-            if (allDirectories.hasKey(Recording.STATE_UNPUBLISHED)))
+            if (allDirectories.hasKey(Recording.STATE_UNPUBLISHED))
                 recordIDs.addAll(getAllRecordingIds(allDirectories.get(Recording.STATE_UNPUBLISHED)));
 
             if (allDirectories.hasKey(Recording.STATE_DELETED))
